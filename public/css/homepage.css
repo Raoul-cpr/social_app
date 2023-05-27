@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 50px;
+    background-color: deeppink;
+    display: flex;
+    justify-content: space-between;
+}
+.searchblock {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.socialapp {
+    color: white !important;
+    font-weight: bold;
+}
+
+.search {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 25px;
+}
+i {
+    color: white;
+}
+.nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+select {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 2px 4px;
+}
+.nav i:hover {
+    cursor: pointer;
+    color: aqua;
+}
+option {
+    background-color: deeppink;
+    color: white;
+}
+option:checked {
+    cursor: pointer;
+    color: white;
+}
+.personal {
+    padding: 2px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.personal p {
+    font-size: 11px;
+}
+hr {
+    margin: 8px 20px;
+}
+main {
+    overflow: auto;
+    align-items: start;
+    display: grid;
+    padding: 5px 50px;
+    gap: 25px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.bodyContainer1 {
+    padding: 25px 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.bodyContainer1 img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.bodyContainer1 .title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 2px 20px;
+}
+.name {
+    display: flex;
+    gap: 10px;
+}
+.ami {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.bodyContainer1 i {
+    color: black;
+}
+.bodyContainer2a {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.bodyContainer3b {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.bodyContainer3c {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.post {
+    padding: 2px 20px;
+}
+.post div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post div p {
+    font-size: 10px;
+}
+.network {
+    padding: 2px 20px;
+}
+.network .plateforme {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+.network .plateforme div p {
+    font-size: 11px;
+}
+
+.network .plateforme .inline {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.bodyContainer2a {
+    padding: 10px 20px;
+}
+.bodyContainer2 .bodyContainer2a .postStatus img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.bodyContainer2 .bodyContainer2b .postStatus img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.bodyContainer2 .bodyContainer2a .postStatus {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bodyContainer2 .bodyContainer2a .postStatus input {
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: beige;
+}
+
+.bodyContainer2 .bodyContainer2a .addfile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bodyContainer2 .bodyContainer2a div p {
+    font-size: 11px;
+}
+
+.bodyContainer2 .bodyContainer2a div i {
+    color: black;
+    size: 10px;
+}
+.bodyContainer2 .bodyContainer2a .addfile div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.bodyContainer2 .bodyContainer2a .addfile button {
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color: black;
+    font-weight: 400;
+}
+
+.bodyContainer2 .bodyContainer2b .postStatus {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.bodyContainer2 .bodyContainer2b .postStatus i {
+    color: black;
+}
+.bodyContainer2 .bodyContainer2b .postStatus .nameAndLoca {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bodyContainer2 .bodyContainer2b img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.bodyContainer2 .bodyContainer2b {
+    padding: 10px 20px;
+    box-shadow: 1px 1px 5px 1px grey;
+    border-radius: 5px;
+}
+
+.bodyContainer2 .bodyContainer2b .postFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bodyContainer2 .bodyContainer2b .postFooter .interaction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bodyContainer2 .bodyContainer2b .postFooter .interaction div {
+    display: flex;
+    align-items: center;
+}
+
+.bodyContainer2 .bodyContainer2b .postFooter .interaction i {
+    color: black;
+}
+.bodyContainer2 .bodyContainer2b .postFooter i {
+    color: black;
+}
+.bodyContainer3b {
+    padding: 5px 20px;
+}
+.bodyContainer3 .bodyContainer3b .postStatus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyContainer3 .bodyContainer3b .postStatus i {
+    color: dimgray;
+}
+.bodyContainer3 .bodyContainer3b .postFooter .boutique {
+    display: flex;
+    justify-content: space-between;
+}
+.bodyContainer3 .bodyContainer3b .postStatus p {
+    color: dimgray;
+}
+.bodyContainer3 .bodyContainer3b img {
+    border-radius: 5px;
+}
+
+.bodyContainer3 .bodyContainer3b .postFooter .boutique p {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.bodyContainer3c .friends img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.bodyContainer3c .friends .groupe {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bodyContainer3c .friends {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bodyContainer3c .friends i {
+    color: black;
+}
+.bodyContainer3c {
+    padding: 5px 20px;
+}
+.image {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+label {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .imageView{
+    display: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px dashed grey;
+    height: 50px;
+    width: 50%;
+    margin: 15px auto;
+  }
+
+  .bodyContainer2b{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+.bodyContainer1{
+    position: sticky;
+}
+
+.form_button{
+    border: none;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: aqua;
+}
+.form_button:hover{
+   
+    background-color: rgba(15, 145, 145, 0.594);
+}
